@@ -1,0 +1,127 @@
+* {
+	font-family: arial, sans-serif;
+	margin: 0 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-image: url(../img/banner_inspiraciones.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.header {
+	
+	margin: 0 auto;
+}
+
+.menu {
+	font-size: 25px;
+	padding: 15px;
+	background-color: #938455;
+	border-bottom: 7px #152635 solid;
+	text-align: center;
+	margin: 30px;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+
+
+}
+
+.titulo {
+	background-color: #152635;
+	font-weight: bolder;
+
+}
+
+
+a:hover {
+	background-color: #152635;
+
+}
+
+.arriba {
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+.tituloinspiraciones {
+	width: 900px;
+	margin: auto;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+ .tituloinspiraciones h2 {
+	color: white;
+	background-color: #152635;
+	border-bottom: 10px solid #938455;
+	text-align: center;
+	font-size: 75px;
+	font-weight: bolder;
+	margin-bottom: 40px;
+}
+
+.contenido {
+	width: 90%;
+	margin: 0 auto 2% auto;
+}
+
+.texto {
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	line-height: 35px;
+	margin-top: 60px;
+	text-align: justify;
+}
+
+.imglibro, .texto {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+
+}
+
+
+
+.texto h3 {
+	font-size: 55px;
+	font-weight: bolder;
+	color: #152635;
+
+
+}
+
+.texto h4 {
+	font-size: 30px;
+	font-style: italic;
+	color: #152635;
+	font-weight: lighter;
+
+}
+
+.texto p {
+	font-size: 25px;
+
+}
+
+
+.footer {
+	text-align: center;
+	background-color: #152635;
+	padding: 5px;
+	color: white;
+	font-weight: lighter;
+	font-size: 13px;
+}

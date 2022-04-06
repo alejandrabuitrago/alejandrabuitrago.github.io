@@ -1,0 +1,121 @@
+* {
+	font-family: arial, sans-serif;
+	margin: 0 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-image: url(../img/banner5.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.header {
+	
+	margin: 0 auto;
+}
+
+.header img {
+	width: 95%;
+	position: relative;
+	border: 7px solid white;
+}
+.menu {
+	font-size: 25px;
+	padding: 15px;
+	background-color: #938455;
+	border-bottom: 7px #152635 solid;
+	text-align: center;
+	margin: 30px;
+}
+
+.inicio {
+	background-color: #152635;
+	font-weight: bolder;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+#contenido {
+	width: 95%;
+	margin: 0 auto 5% auto;
+
+}
+.banner, .derecha {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.titulo {
+	width: 75%;
+	color: white;
+	background-color: #152635;
+	border-bottom: 10px solid #938455;
+	text-align: center;
+	font-size: 80px;
+	font-weight: bolder;
+	margin: 5% auto 50% auto;
+}
+
+.titulo p {
+	padding: 20px;
+}
+
+.kanji {
+	font-size: 65px;
+	font-weight: lighter;
+	letter-spacing: 20px;
+
+}
+
+
+.sinopsis {
+	 display: block;
+	 background-color: rgba(255, 255, 255, 0.6) ;
+	 padding: 20px;
+	 font-size: 20px;
+	 line-height: 30px;
+	 text-align: justify;
+	 width: 85%;
+	 margin: auto;
+
+}
+
+.sinopsis h2 {
+	font-weight: bolder;
+	padding-bottom: 20px;
+	color: #152635;
+}
+
+.footer {
+position: relative;
+text-align: center;
+
+}
+
+
+a:hover {
+	background-color: #152635
+}
+
+.footer {
+	text-align: center;
+	background-color: #152635;
+	padding: 5px;
+	color: white;
+	font-weight: lighter;
+	font-size: 13px;
+}
+
+.arriba {
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px;
+}
