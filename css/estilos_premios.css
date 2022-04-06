@@ -23,6 +23,7 @@ body {
 	border-bottom: 7px #152635 solid;
 	text-align: center;
 	margin: 30px;
+
 }
 
 
@@ -68,6 +69,7 @@ a:hover {
 	text-align: center;
 	font-size: 75px;
 	font-weight: bolder;
+	border-radius: 7px;
 }
 
 
