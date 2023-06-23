@@ -1,0 +1,1135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* --------------------MENU Y COSAS GENERALES---------------------- */
+* {
+    font-family: 'Roboto', sans-serif; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contenedor {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+
+#menu2 input, #menu2 label {
+    display: none;
+}
+
+#filtro input, #filtro label {
+display: none;
+}
+
+#logo_responsive {
+    display: none;
+   }
+
+
+#arriba {
+    z-index: 2;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.375em;
+}
+
+#arriba p {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #252525;
+    padding: 7px;
+}
+
+nav {
+    
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #E48282;
+    
+}
+
+
+#menu2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 50%;
+}
+
+
+
+
+#menu2 a {
+    
+    
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.21em;
+
+}
+
+#menu2 a:hover {
+    color: #fff;
+
+}
+
+#noactivo {
+    padding: 1.5rem 0;
+    color: #252525;
+}
+
+
+
+#activo1 {
+    padding: 1.5rem 1.5rem;
+    background-color: #252525;
+    color: white;
+}
+
+
+
+
+
+
+#filtro {
+    margin: 0;
+    background-color: #252525;
+    padding: 0.7rem;
+    text-align: start;
+    padding-left: 5%;
+    box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+}
+
+#filtro a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2%;
+    font-size: 16px;
+    letter-spacing: 0.21em;
+}
+
+#filtro a:hover {
+    text-decoration: underline;
+   }
+
+#filtro a:hover {
+    text-decoration: underline;
+   }
+
+input, label {
+    display: none;
+}
+
+
+#titulo {
+    display: none;
+}
+
+
+
+
+
+
+  /* -------------------------------------------------------- */
+
+
+  /* --------------------------CONTENIDO---------------------- */
+
+  /* --------------------------SLIDERS---------------------------------- */
+
+
+  .rosa {
+
+    background-color: #EEDCDC;
+  }
+
+
+  .blanco {
+    background-color: white;
+    border: 1px solid #252525;
+  }
+ 
+
+
+
+.contenido {
+
+   margin: auto;
+   margin-top: 170px;
+    
+
+}
+
+.seccion1 {
+    margin: auto;
+    background-color: white;
+    width: 90%;
+    padding: 50px;
+    
+}
+
+.seccion2 {
+    margin: auto;
+    background-color: #C8C7E0;
+    width: 90%;
+    padding-bottom: 30px ;
+    padding: 50px;
+}
+  
+.titulos_negros {   
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.titulos_negros h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.47);
+}
+
+
+.titulos_blancos { 
+   
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.titulos_blancos h3 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.47);
+}
+
+
+
+
+
+.slider1 {
+
+    
+    overflow-x: scroll;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px ;
+}
+
+.slider1,.slider2 {
+    max-width: 1400px;
+}
+
+/* ===== Scrollbar CSS ===== -----------------------------------*/
+  /* Firefox */
+  .slider1 {
+    scrollbar-width: auto;
+    scrollbar-color: #C8C7E0 ;
+    
+  }
+
+  /* Chrome, Edge, and Safari */
+  .slider1::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+
+  .slider1::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+    
+  }
+
+  .slider1::-webkit-scrollbar-thumb {
+    background-color: #C8C7E0;
+    border-radius: 10px;
+    border: 0 none #d0cbdc;
+    
+  }
+
+
+
+  /* Firefox */
+  .slider2 {
+    scrollbar-width: auto;
+    scrollbar-color: white ;
+    
+  }
+
+  /* Chrome, Edge, and Safari */
+  .slider2::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+
+  .slider2::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+    
+  }
+
+  .slider2::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 0 none #d0cbdc;
+    
+  }
+
+/* ----------------------------------------------- */
+
+.slider2 {
+    overflow-x: scroll;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+
+
+.objeto_1 {
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+
+
+  
+.objeto_1 {
+    padding:20px 20px;
+    text-align: center;
+    width: 300px;
+  }   
+  
+  .tamaño_img {
+   width: 80%;
+  }
+
+  
+  
+
+  .btn_comprar {
+    width: 20%;
+    background-color: #252525;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    
+  
+  }
+  
+  .separador_objeto_d {
+    width: 90%;
+  }
+  
+  .objeto_1 h3 {
+    color: #252525;
+    margin: 12px 0 10px 0;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: regular;
+  
+  }
+  
+  #separador_objeto_d {
+    margin: 0;
+    display: block;
+  }
+  
+  .precio {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+  
+  
+  }
+  
+  #carrito_objeto {
+    margin-right: 10px;
+  
+  }
+
+  /* --------------ESTILOS OBJETOS--------------------- */
+
+/* ------------------modal-----------------  */
+.modalDialog {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog>div {
+
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    margin: 20% auto;
+    padding: 5px 20px 13px 20px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 100%;
+    color: #252525;
+    font-size: 20px;
+}
+
+.close {
+    display: block;
+    background: none !important;
+
+}
+
+.close a {
+    color: #252525;
+}
+
+.close:hover {
+    background: #252525;
+    color: #E48282;
+}
+
+
+/* --------------------------------------- */
+
+/* ESTILOS MODAL */
+
+.contenido_modal {
+    display: flex;
+}
+
+.nombre_item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+
+.modal2 hr {
+    width: 105%;
+    margin: 0;
+    margin-bottom: 10%;
+    height: 2px;
+    color: #252525;
+    background-color: black;
+    opacity: 100;
+}
+
+.talla,
+.color {
+    display: flex;
+
+}
+
+.modal1 {
+    margin-right: 5%;
+}
+
+.modal1 img {
+    width: 90%;
+    margin: 5%;
+}
+
+.modal2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-right: 10%;
+    width: 25%;
+    height: 25px;
+}
+
+.modal2 select {
+    margin-bottom: 5%;
+    background: #dddddd;
+    color: #252525;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+    font-size: 15px;
+}
+
+.carrito_modal {
+    margin-top: 10%;
+}
+
+.btn_comprar {
+    width: 20%;
+    background-color: #252525;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.precio {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+}
+
+
+
+/* -------------------------------- */
+
+
+
+
+  /* -------------------FOOTER------------------------ */
+
+#espacio {
+    margin-right: 57px;
+    
+}
+
+
+#redes_footer {
+    margin-bottom: 15px;
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #252525;
+    color: white;
+}
+
+footer h3 {
+    margin: 15px 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+
+}
+
+footer p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.055em;
+
+}
+
+#separador_tablet {
+    display: none;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+ /* --------------------TAMAÑO TABLET --------------------  */
+
+
+@media screen and (max-width: 834px) {
+
+    #logo_responsive {
+        padding: 0.5rem 0;
+        display:block;
+       }
+
+ 
+   #logo {
+    display:none;
+   }
+
+  .contenedor {
+    width: 100%;
+  }
+
+  #arriba p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+ input {
+    display: none;
+}
+ label {
+    display: block;
+}
+
+#filtro label {
+    display: none;
+}
+
+#filtro {
+    display: block;
+}
+
+
+
+#menu2{
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    background: #E48282;
+    left: -100%;
+    transition: all 600ms;
+    top: 100px;
+    box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+
+}
+
+#menu2 a {
+    font-size: 13px;
+}
+
+#nav_checkbox:checked ~ #menu2 {
+    left: 0;
+}
+
+
+
+#filtro {
+    padding: 0.5rem;
+    text-align: center;
+    padding-left: 5%;
+}
+
+#filtro a {
+
+    padding-right: 2%;
+    font-size: 13px;
+}
+
+#filtro {
+    box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+}
+
+#img_filtro {
+    display: none;
+}
+
+#titulo {
+    display: block;
+    margin: 0;
+    background-color: #252525;
+    color: white;
+   
+    
+}
+
+#titulo h2 {
+    margin: 4px auto;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.05em;
+
+}
+
+/* ----------------------CARDS---------------------- */
+
+
+.seccion1,.seccion2 {
+    width: 100%;
+}
+
+.contenido {
+    width: 100%;
+    margin-top: 150px;
+}
+.slider1,.slider2 {
+    width: 100%;
+}
+
+.objeto_1 {
+    padding:15px 20px;
+    width: 195px;
+    margin-bottom: 32px;
+}   
+
+.tamaño_img {
+    width: 149px;
+}
+
+.btn_comprar {
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    padding: 9px 10px;
+    border-radius: 5px;
+    letter-spacing: 0.045em;
+    font-size: 12px;
+
+}
+
+.titulos_blancos h3, .titulos_negros h3 {
+    font-size: 50px;
+}
+
+#carrito_objeto {
+    margin-right: 7px;
+
+}
+
+.objeto_1 h3 {
+    font-size: 12px;
+    margin-bottom: 3px;
+
+}
+.precio {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+
+}
+
+ /* ------------MODAL-------------- */
+ .modal2 {
+    text-align: start;
+}
+/* ---------------------------- */
+
+#separador_objeto_d {
+    width: 150px;
+    margin: 0;
+    display: block;
+}
+
+
+
+/* ----------------------FOOTER---------------------- */
+
+
+
+#separador_tablet {
+    display: block;
+    padding: 0 10px;
+}
+
+
+#separador_display {
+    display: none;
+}
+
+
+#contenido_footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70%;
+}
+
+#redes_footer {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#redes_footer img {
+    width: 25px;
+}
+
+
+
+
+#espacio {
+    margin: 0;
+}
+
+footer h3 {
+    margin: 15px 0;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.115em;
+
+}
+
+
+#visitanos {
+    padding-left: 5px;
+    width: 45%;
+}
+
+#contactanos {
+    width: 50%;
+}
+
+
+footer p{
+    font-size: 13px;
+
+}
+
+
+}
+
+
+/* --------------------TAMAÑO TELEFONO -------------------- */
+
+@media screen and (max-width: 480px) {
+
+
+    body {
+        margin: auto;
+    }
+    .contenedor {
+        width: 100%;
+    }
+
+    #banner {
+        display: none;
+    }
+
+   
+    #filtro label {
+        display: block;
+    }
+   
+
+    #filtro label img {
+        display: block;
+        width: 30px;
+    }
+
+    #objetos    {
+        width: 100%;
+    }
+
+    nav {
+        box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+    }
+
+  
+
+
+
+    #arriba {
+        display: none;
+    }
+
+
+    #logo_responsive img {
+        width: 90px;
+       }
+
+       #filtro a {
+        padding: 20px;
+       }
+
+      
+
+    #filtro{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: #252525;
+        transition: all 600ms;
+        top: 90px;
+        right: -100%;
+        
+    
+    }
+
+    label img {
+        display: block;
+        width: 30px;
+    }
+
+    #filtro_checkbox:checked ~ #filtro {
+        right: 0;
+    }
+    
+    #img_filtro {
+        box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px 0px 0px 3px;
+        top: 50px;
+        z-index: 2;
+        position: fixed;
+        right: 0;
+
+        display: block;
+    }
+    
+    #carrito img {
+        width: 30px;
+        filter: contrast(100);
+    }
+
+    #carrito:hover {
+        filter: invert(100);
+
+    }
+
+    
+
+    #titulo_1{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    #titulo_1 h2 {
+        font-size: 27px;
+
+    }
+
+   
+
+
+    #menu2 a{
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.21em;
+    }  
+    
+    #menu2 {
+        width: 60%;
+        top: 50px;
+    }
+
+    #titulo {
+        box-shadow: 0px 9px 7px -3px rgba(48, 48, 48, 0.6);
+    }
+
+    
+    #titulo h2 {
+        margin: 4px auto;
+        font-size: 20px;
+        margin: 0;
+        font-weight: 600;
+        font-family: 'Roboto Condensed', sans-serif;
+        letter-spacing: 0.05em;
+    
+    }
+    
+
+
+    /* -------------------------------- */
+
+   
+
+
+    .titulos_blancos,.titulos_negros {
+        margin-top: 20px;
+    }
+
+ .titulos_blancos h3 {
+    letter-spacing: 0;
+    font-size: 30px;
+ }
+
+ .titulos_negros h3 {
+    letter-spacing: 0;
+    font-size: 30px;
+ }
+
+
+
+    .seccion1,.seccion2 {
+        padding: 10px;
+    }
+
+    .contenido {
+        margin-top: 60px;
+    }
+
+    .objeto_1 {
+        margin-right: 25px;
+    }
+
+
+    /* ---------------MODAL------------ */
+
+    .modalDialog>div {
+        max-width: 250px;
+        padding: 10px;
+
+    }
+
+    .contenido_modal {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+
+
+    .modal1 img {
+        width: 80%;
+
+    }
+
+    .modal1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .modal select {
+        margin: 0;
+    }
+
+    .carrito_modal {
+        margin: 0%;
+    }
+
+    .nombre_item {
+        margin: 0%;
+        margin-bottom: 5%;
+    }
+
+    .modal p {
+        margin: 0;
+    }
+
+    .modal2 hr {
+        display: none;
+    }
+
+    .close {
+        right: 3%;
+        top: 2%;
+    }
+
+    .color {
+        margin-bottom: 5%;
+    }
+
+    .carrito_modal {
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+    /* ---------------------------------- */
+
+
+    
+
+/* ---------------------FOOTER-------------------- */
+
+
+
+
+
+#contenido_footer {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#separador_tablet {
+    display: none;
+}
+
+footer h3 {
+    font-size: 13px;
+
+}
+
+footer p {
+    font-size: 12px;
+}
+
+#redes_footer {
+    width: 50%;
+}
+
+
+
+
+#visitanos {
+
+    width: 100%;
+
+}
+
+#contactanos {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+
+
+}
